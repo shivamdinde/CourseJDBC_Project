@@ -1,0 +1,7 @@
+TODO 2:
+ 		Enhance TODO 1 to handle DML operations.
+ 		1st Priority: INSERT
+ 		
+ 		CREATE
+ 		UPDATE
+ 		DELETE

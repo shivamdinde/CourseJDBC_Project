@@ -1,0 +1,3 @@
+TODO 1:
+		Implement DAO pattern for handling getAll() and getOne() functionalities for Course entity.
+		Write a main class to test this functionality.

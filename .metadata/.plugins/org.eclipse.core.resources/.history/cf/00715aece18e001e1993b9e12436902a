@@ -1,0 +1,25 @@
+package ToDo1Adv;
+
+import java.util.Collection;
+
+public class CourseCRUD_Main {
+	
+	private static void showOneCourse() {
+		DaoInterface<CourseProject, Integer> idao = new CourseDao();
+		CourseProject cst = idao.getOne(101);
+		if(cst != null)
+			System.out.println(cst);
+		else
+			System.out.println("Course Object with this ID does not exist");
+	}
+	private static void showAllCourse() {
+		DaoInterface<CourseProject, Integer> idao = new CourseDao();
+		Collection<CourseProject> allAvailableCourses  = idao.getAll();
+		for(CourseProject cst : allAvailableCourses)
+			System.out.println(cst);
+	}
+	public static void main(String[] args) {
+		showAllCourse();
+		showOneCourse(102);
+	}
+}

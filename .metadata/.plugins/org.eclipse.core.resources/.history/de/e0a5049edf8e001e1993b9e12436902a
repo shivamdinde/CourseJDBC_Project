@@ -1,0 +1,19 @@
+package ToDo1Adv;
+
+import java.util.Collection;
+
+public class CourseDao implements DaoInterface<CourseProject, Integer> {
+
+	@Override
+	public Collection<CourseProject> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CourseProject getOne(Integer key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
